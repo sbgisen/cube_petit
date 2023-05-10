@@ -7,15 +7,15 @@
 Cube petit(キューブプチ)は人の生活に入り込むことの出来る自律走行ロボットです
 世の中に普及させるため低価格で小型なロボットキットを目指して開発しています
 
-ハードウェアは既製品の組み合わせで構成しているのでお好きなセンサーやモーターを取り付けられます。ソフトウェアはオープンソースのROSに対応しており、研究用途でのカスタマイズが可能です
+ハードウェアは既製品の組み合わせで構成しているのでお好きなセンサーやモーターを取り付けられます。ソフトウェアはオープンソースのROSに対応しており、自由にカスタマイズが可能です
 
-Cube Petit is a desktop-sized Cuboid-kun that is intended to be sold
+Cube petit is a desktop-sized Cuboid-kun that is intended to be sold
 at low cost and widely distributed around the world.
 
-Cube Petit was born to coexist in people's living spaces,
+Cube petit was born to coexist in people's living spaces,
 serve many people, and make many people smile.
 
-Cube Petit is self-driving and can be charged by itself.
+Cube petit is self-driving and can be charged by itself.
 There are ivory, clear blue, and yellow color variations.
 
 Cube petitの動画は[Youtube](https://youtube.com/playlist?list=PL509ZQjTHPYecUfyNaroISz6ZV1QCh2k4)でご確認ください
@@ -28,7 +28,7 @@ Cube petitの動画は[Youtube](https://youtube.com/playlist?list=PL509ZQjTHPYec
 
 [cube_petit](https://github.com/sbgisen/cube_petit): This Repository
 [cube_petit_cad](https://github.com/sbgisen/cube_petit_cad): Cube petit's CAD
-[cube_petit_ros](https://github.com/sbgisen/cube_petit_ros):Ros packages
+[cube_petit_ros](https://github.com/sbgisen/cube_petit_ros): Ros packages
 
 ---
 
@@ -47,12 +47,12 @@ Cube petitの動画は[Youtube](https://youtube.com/playlist?list=PL509ZQjTHPYec
 
 ## 2. Specifications
 **Version 2**
-<img src="./pictures/specification.png" width="300" height="225"><img src="./pictures/Cube_petit_front.png" width="100">
+<img src="./pictures/specification.png" width="300" height="225"><img src="./pictures/Cube_petit_front.png" width="100" height="100">
 
 ## 3. Function
 
 ### 3-1. Basic Function: Mapping and Navigation
-**2D LiDAR**で自己位置推定、地図を作成します
+**2D LiDAR**を使用して自己位置推定、地図作成をします
 さらに**Depth Camera**で人や障害物を避けながら指定した位置まで移動・巡回します
 **ROS package**(**gmapping**, **navigation**)を使用しています
 
@@ -68,7 +68,8 @@ ARマーカーを見ながら自動で充電します
 
 ### 3-3. Advanced Function: Offline Conversation
 
-オフラインの日本語のEnglighの音声合成と音声認識に対応しています
+オフラインの音声合成と音声認識に対応しています
+対応言語は日本語とEnglighです
 日本語の音声合成に**OpenJTalk**、認識に**Julius**を使用しています
 感情や速度を変えながら話せます
 <img src="./pictures/Cube_petit_front.png" width="100">
@@ -105,4 +106,5 @@ Cube petitの製作方法( Parts list, How to assemble, e.t.c.)
 
 ## Licence
 
-* MIT
+* Apache License Version 2.0
+* See [LICENSE](LICENSE)
