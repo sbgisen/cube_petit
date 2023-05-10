@@ -16,7 +16,7 @@ serve many people, and make many people smile.
 Cube petit is self-driving and can be charged by itself.
 There are ivory, clear blue, and yellow color variations.
 
-Cube petitの動画は[Youtube](https://youtube.com/playlist?list=PL509ZQjTHPYecUfyNaroISz6ZV1QCh2k4)でご確認ください<br>展示会など最新の出店情報は[Twitter @Cube_petit_2022](https://twitter.com/Cube_petit_2022)でご確認ください
+Cube petitの動画は[Youtube](https://youtube.com/playlist?list=PL509ZQjTHPYecUfyNaroISz6ZV1QCh2k4)でご確認ください<br>展示会など最新の出展情報は[Twitter @Cube_petit_2022](https://twitter.com/Cube_petit_2022)でご確認ください
 
 ---
 
